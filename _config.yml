@@ -10,10 +10,10 @@ highlighter:      rouge
 permalink:        pretty
 
 # Setup
-title:            Good Mama
+title:            Mama
 # 자신의 blog title.
 tagline:          My Home(Mama)
-description:      '<a href="https://taekku.github.io" target="_blank">Taekku (new Windows)</a>'
+description:      T.G. Lim
 # blog home에 표시될 blog에 대한 전반적인 설명.
 url:              https://taekku.github.io
 # Google Search Console에서 사용하는 sitemap.xml 생성시
@@ -22,7 +22,7 @@ url:              https://taekku.github.io
 # 또한 disqus(댓글시스템)를 이용하기 위해서도 필요.
 # 자신의 github page url을 입력
 # ( https://your_github_id.github.io 형식 )
-baseurl:          
+baseurl:          /
 
 author:           
   name:           Taekku

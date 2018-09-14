@@ -1,4 +1,10 @@
+---
+layout: page
+title: _config.yml
+---
 ## Good _config.yml
+
+```markdown
 
 # Welcome to Jekyll!
 #
@@ -322,3 +328,4 @@ relative_source: ../blog/ # 저는 repo 이름으로 설정했습니다.
 destination: ../posts # 빌드시 작업파일이 저장될 경로
 production_url:  https://blog.imreplay.xyz # 사이트 URL
 source_url:  https://github.com/imreplay/blog/ # Github 저장소 URL
+```
