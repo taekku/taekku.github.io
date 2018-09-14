@@ -6,6 +6,8 @@ title: Home
 
 ### {{ page.title }}
 ### {{ site.title }}
+### {{ site.url }}
+### {{ site.description }}
 
 
 링크는 이렇게 하는 것이군요!
