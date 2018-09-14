@@ -4,13 +4,6 @@ title: Home
 ---
 ##  {{ site.title }}
 
-### {{ page.title }}
-### {{ site.title }}
-### {{ site.url }}
-### {{ site.description }}
-
-
-링크는 이렇게 하는 것이군요!
 [Boeun](https://taekku.github.io/boeun)
 
 ### Markdown
