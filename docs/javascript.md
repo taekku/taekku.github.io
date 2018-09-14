@@ -2,7 +2,7 @@
 layout: page
 title: ECMAScript
 ---
-## JavaScript( ECMAScript )
+## Javascript
 
 - Markdown
 
