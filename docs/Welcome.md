@@ -1,3 +1,7 @@
+---
+layout: mama
+title: GitHub Pages
+---
 ## Welcome to GitHub Pages
 
 {{ site.title }}
