@@ -1,5 +1,5 @@
 ---
-layout: mama
+layout: page
 title: TypeScript
 ---
 
