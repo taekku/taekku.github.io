@@ -2,6 +2,5 @@
 
 
 ## Author
-
-** Lim Taekgu **
+### Lim Taekgu 
 - <https://taekku.github.io>
