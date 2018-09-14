@@ -26,7 +26,7 @@ baseurl:          /
 
 author:           
   name:           Taekku
-  url:            https://taekku.github.io
+   url:           https://taekku.github.io
 
 paginate:         5
 # 작성한 모든 post를 하나의 페이지에 열거할 수 없으니
