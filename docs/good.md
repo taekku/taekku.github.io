@@ -1,6 +1,6 @@
 ---
 layout: page
-title: _config.yml
+title: Jekyll설정상세히 보기
 ---
 ## Good _config.yml
 
