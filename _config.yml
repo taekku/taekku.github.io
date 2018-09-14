@@ -24,7 +24,7 @@ url:              https://taekku.github.io
 # ( https://your_github_id.github.io 형식 )
 baseurl:          /
 
-author:           Taekku
+author:           
   name:           Taekku
   url:            https://taekku.github.io
 
