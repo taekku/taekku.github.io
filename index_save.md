@@ -1,9 +1,10 @@
-## Welcome to {{ site.title }} in GitHub Pages
+## Welcome to GitHub Pages
 
+{{ site.title }}
 
+You can use the [editor on GitHub](https://github.com/taekku/taekku.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
-링크는 이렇게 하는 것이군요!
-[Boeun](https://taekku.github.io/boeun)
+Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
 ### Markdown
 
