@@ -1,5 +1,7 @@
 ##  {{ site.title }}
 
+### {{ page.title }}
+### {{ site.title }}
 
 
 링크는 이렇게 하는 것이군요!
