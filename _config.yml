@@ -39,4 +39,4 @@ version:          0.0.1
 github:
   repo:           https://github.com/taekku/taekku.github.io
 
-theme: jekyll-theme-time-machine
+theme: jekyll-theme-midnight
