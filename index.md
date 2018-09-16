@@ -1,8 +1,9 @@
+---
+layout: default
+title: Home
+---
 ##  {{ site.title }}
 
-
-
-링크는 이렇게 하는 것이군요!
 [Boeun](https://taekku.github.io/boeun)
 
 ### Markdown

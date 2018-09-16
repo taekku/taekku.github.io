@@ -1,3 +1,42 @@
-theme: jekyll-theme-architect
-title: Taekgu Lim
-baseurl: /
+# Dependencies
+markdown:         kramdown
+# kramdown : markdown의 개조판.
+# markdown에서 불편한 사항을 개선한 형태.
+# highlighter:      pygments | rouge
+highlighter:      rouge
+
+# Permalinks
+# permalink:        pretty
+permalink:        pretty
+
+# Setup
+title:            Mama
+# 자신의 blog title.
+tagline:          My Home(Mama)
+description:      T.G. Lim
+# blog home에 표시될 blog에 대한 전반적인 설명.
+url:              https://taekku.github.io
+# Google Search Console에서 사용하는 sitemap.xml 생성시
+# 이 url key값이 존재하지 않으면 sitemap.xml이
+# 정상적으로 생성되지 않는다.
+# 또한 disqus(댓글시스템)를 이용하기 위해서도 필요.
+# 자신의 github page url을 입력
+# ( https://your_github_id.github.io 형식 )
+baseurl:          /
+
+author:           
+  name:           Taekku
+  uri:            https://taekku.github.io
+
+paginate:         5
+# 작성한 모든 post를 하나의 페이지에 열거할 수 없으니
+# pagination이 필요하고 몇개의 post를 하나의 page에서
+# 보여줄 건지를 설정.
+
+# Custom vars
+version:          0.0.1
+
+github:
+  repo:           https://github.com/taekku/taekku.github.io
+
+theme: jekyll-theme-midnight
