@@ -8,9 +8,15 @@
 
   <title>
     {% if page.title == "Home" %}
-      {{ site.title }} &middot; {{ site.tagline }} site.baseurl: {{ site.baseurl }}
+      {{ site.title }}
+      {% comment %}
+      &middot; {{ site.tagline }} {{ site.baseurl }}
+      {% endcomment %}
     {% else %}
-      {{ page.title }} &middot; {{ site.title }} site.baseurl: {{ site.baseurl }}
+      {{ page.title }}
+      {% comment %}
+      &middot; {{ site.title }} {{ site.baseurl }}
+      {% endcomment %}
     {% endif %}
   </title>
 
