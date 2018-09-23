@@ -569,25 +569,25 @@ Use Lifecycle hooks to tap into important events exposed by Angular.
 ### Style 09-01
 
 - `Do` implement the lifecycle hook interfaces.
-- `Why?` Lifecycle interfaces prescribe typed method signatures. use those signatures to flag spelling and syntax mistakes.
+- `Why?` Lifecycle interfaces prescribe typed method signatures. use those signatures to flag spelling and syntax mistakes.라이프 사이클 인터페이스는 유형이 지정된 메소드 서명을 처 리합니다. 이러한 서명을 사용하여 철자 및 구문 오류를 표시하십시오.
 
 # Appendix
 
-Useful tools and tips for Angular.
+Angular에 유용한 도구 및 팁.
 
 ## Codelyzer
 
 ### Style A-01
 
-- `Do` use codelyzer to follow this guide.
-- `Consider` adjusting the rules in codelyzer to suit your needs.
+- `Do` 이 가이드를 따르려면 codelyzer를 사용하십시오.
+- `Consider` 귀하의 요구에 맞게 규칙을 조정하십시오.
 
 ## File templates and snippets
 
 ### Style A-02
 
-- `Do` use file templates or snippets to help follow consistent styles and patterns. Here are templates and/or snippets for some of the web development editors and IDEs.
-- `Consider` using snippets for Visual Studio Code that follow these styles and guidelines.
-- `Consider` using snippets for Atom that follow these styles and guidelines.
-- `Consider` using snippets for Sublime Text that follow these styles and guidelines.
-- `Consider` using snippets for Vim that follow these styles and guidelines.
+- `Do` 파일 템플리트 또는 스 니펫을 사용하여 일관된 스타일 및 패턴을 따르십시오. 다음은 웹 개발 편집기 및 IDE에 대한 템플릿 및 스니펫입니다.
+- `Consider` 이 스타일과 지침을 따르는 Visual Studio 코드 스니펫 사용.
+- `Consider` 이 스타일과 지침을 따르는 Atom을위한 스니펫을 사용합니다.
+- `Consider` 이 스타일과 지침을 따르는 숭고한 텍스트를위한 스니펫 (snippets)사용하기.
+- `Consider` 이러한 스타일과 지침을 따르는 Vim의 스니펫을 사용합니다.
