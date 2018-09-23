@@ -19,7 +19,7 @@ Angular Syntax, 규칙 및 응용 프로그램 구조에 대한 독창적 인 �
 
 일부 코드 예제는 하나 이상의 유사한 이름의 짝 파일이있는 파일을 표시합니다. 예 : `hero.component.ts` 및 `hero.component.html`.
 
-지침은 바로 가기 `hero.component.ts`|`html`|`css`|`spec`을 사용하여 다양한 파일을 나타냅니다. 이 바로 가기를 사용하면이 안내서의 파일 구조를 읽기 쉽고 간결하게 만들 수 있습니다.
+지침은 바로 가기 `hero.component.ts`\|`html`\|`css`\|`spec`을 사용하여 다양한 파일을 나타냅니다. 이 바로 가기를 사용하면이 안내서의 파일 구조를 읽기 쉽고 간결하게 만들 수 있습니다.
 
 # Single responsibility
 
