@@ -3,6 +3,7 @@ layout: page
 title: Angular Style Guide
 ---
 Angular Syntax, 규칙 및 응용 프로그램 구조에 대한 독창적 인 가이드를 찾고 계십니까? 바로 들어가십시오! 이 스타일 가이드는 선호하는 규칙을 제시하며, 중요한 이유를 설명합니다.
+
 # Style vocabulary
 각 guideline은 좋은 사례, 나쁜 사례를 설명하고 일관된 설명을 제공합니다.
 
@@ -39,6 +40,7 @@ Single Responsibility Principle(SRP:단일 책임 원칙)을 모든 구성 요�
 - `Why?` 하나의 구성 요소가 파일의 기본 내보내기가 될 수 있으므로 라우터를 통한 지연로드가 용이합니다.
 
 - 핵심은 코드를 재사용 가능하고 읽기 쉬우 며 실수가 적은 코드로 만드는 것입니다.
+
 ## Small functions
 ### Style 01-02
 - `Do`
@@ -57,6 +59,7 @@ Single Responsibility Principle(SRP:단일 책임 원칙)을 모든 구성 요�
 
 # Naming
 이름 지정 규칙은 유지 보수성과 가독성을 위해 대단히 중요합니다. 이 설명서는 파일 이름과 기호 이름에 대해 이름 지정 규칙을 권장합니다.
+
 ## General Naming Guidelines
 ### Style 02-01
 - `Do`
@@ -69,6 +72,7 @@ Single Responsibility Principle(SRP:단일 책임 원칙)을 모든 구성 요�
   > 명명 규칙은 원하는 코드를 더 빨리 찾아 내고 이해하기 쉽게 만들어줍니다.
 
   > 폴더와 파일의 이름은 의도를 명확하게 전달해야합니다. 예를 들어 `app/heroes/hero-list.component.ts`에는 영웅 목록을 관리하는 구성 요소가 포함될 수 있습니다.
+
 ## Separate file names with dots and dashes
 ### Style 02-02
 - `Do`
@@ -104,6 +108,7 @@ Single Responsibility Principle(SRP:단일 책임 원칙)을 모든 구성 요�
 
 - `Why?`
   > 일관된 규칙에 따라 여러 유형의 자산을 신속하게 식별하고 참조 할 수 있습니다.
+
 ## Service Names
 ### Style 02-04
 - `Do`
@@ -185,6 +190,7 @@ Single Responsibility Principle(SRP:단일 책임 원칙)을 모든 구성 요�
   > 다른 앱에서 구성 요소를 홍보하고 공유하는 것이 더 쉬워집니다.
 
   > 구성 요소는 DOM에서 쉽게 식별 할 수 있습니다.
+
 ## Directive selectors
 ### Style 02-07
 - `Do`
@@ -204,12 +210,14 @@ Single Responsibility Principle(SRP:단일 책임 원칙)을 모든 구성 요�
   > 이름 충돌을 방지합니다.
 
   > 지침을 쉽게 식별 할 수 있습니다.
+
 ## Pipe names
 ### Style 02-09
 - `Do`
   > 해당 기능의 이름을 따서 명명 된 모든 파이프에 대해 일관된 이름을 사용하십시오.
 - `Why?`
     > 파이프를 신속하게 식별하고 참조 할 수있는 일관된 방법을 제공합니다.
+
 ## Unit test file names
 ### Style 02-10
 - `Do`
@@ -221,6 +229,7 @@ Single Responsibility Principle(SRP:단일 책임 원칙)을 모든 구성 요�
   > 테스트를 신속하게 식별 할 수있는 일관된 방법을 제공합니다.
 
   > 카르마 또는 다른 테스트 주자를위한 패턴 일치를 제공합니다.
+
 ## End-to-End (E2E) test file names
 ### Style 02-11
 - `Do`
@@ -230,6 +239,7 @@ Single Responsibility Principle(SRP:단일 책임 원칙)을 모든 구성 요�
   > 엔드 - 투 - 엔드 테스트를 신속하게 식별 할 수있는 일관된 방법을 제공합니다.
 
   > 테스트 주자와 빌드 자동화를위한 패턴 일치를 제공합니다.
+
 ## Angular NgModule names
 ### Style 02-12
 - `Do` 접미사 모듈과 함께 기호 이름을 추가하십시오.
@@ -249,6 +259,7 @@ Single Responsibility Principle(SRP:단일 책임 원칙)을 모든 구성 요�
 - `Do` 클래스 이름을 지정할 때 Upper Camel case를 사용하십시오.
 - `Why?` 클래스 이름에 대한 일반적인 생각을 따르십시오.
 - `Why?` 클래스를 인스턴스화하고 인스턴스를 생성 할 수 있습니다. 관습에 따라, upper camel case는 건설 가능한 자산을 나타냅니다.
+
 ## Constants
 ### Style 03-02
 - `Do` 변수가 응용 프로그램 수명 동안 변경되지 않아야하는 경우 `const`로 변수를 선언하십시오.
@@ -266,6 +277,7 @@ export const mockHeroes   = ['Sam', 'Jill']; // prefer
 export const heroesUrl    = 'api/heroes';    // prefer
 export const VILLAINS_URL = 'api/villains';  // tolerate
 ```
+
 ## Interfaces
 ### Style 03-03
 - `Do` name an interface using upper camel case.
@@ -288,6 +300,7 @@ export class HeroCollectorService {
   constructor() { }
 }
 ```
+
 ## Properties and methods
 ### Style 03-04
 - `Do` use lower camel case to name properties and methods.
@@ -295,6 +308,7 @@ export class HeroCollectorService {
 - `Why?` Follows conventional thinking for properties and methods.
 - `Why?` JavaScript lacks a true private property or method.
 - `Why?` TypeScript tooling makes it easy to identify private vs. public properties and methods.
+
 ## Import line spacing
 ### Style 03-06
 - `Consider` leaving one empty line between third party imports and application imports.
@@ -302,6 +316,7 @@ export class HeroCollectorService {
 - `Consider` listing destructured imported symbols alphabetically.
 - `Why?` The empty line separates your stuff from their stuff.
 - `Why?` Alphabetizing makes it easier to read and locate symbols.
+
 # Application structure and NgModules
 
 장기적인 비전과 실행에 대한 단기적인 관점을가집니다. 작게 시작하지만 앱이 어디로 향하는 지 명심하십시오.
@@ -316,11 +331,13 @@ export class HeroCollectorService {
 - `Do` structure the app such that you can Locate code quickly, Identify the code at a glance, keep the Flattest structure you can, and Try to be DRY.
 - `Do` define the structure to follow these four basic guidelines, listed in order of importance.
 - `Why?` LIFT Provides a consistent structure that scales well, is modular, and makes it easier to increase developer efficiency by finding code quickly. To confirm your intuition about a particular structure, ask: _can I quickly open and start work in all of the related files for this feature?_
+
 ## Locate
 
 ### Style 04-02
 - `Do` make locating code intuitive, simple and fast.
 - `Why?` To work efficiently you must be able to find files quickly, especially when you do not know (or do not remember) the file names. Keeping related files near each other in an intuitive location saves time. A descriptive folder structure makes a world of difference to you and the people who come after you.
+
 ## Identify
 ## Style 04-03
 - `Do` name the file such that you instantly know what it contains and represents.
