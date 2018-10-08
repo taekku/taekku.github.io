@@ -32,13 +32,11 @@ title: ECMAScript
 ## Aboute DATE
 ### 날짜 포맷(yyyymmdd)출력하기(datepicker를 이용하여)
 
-    ```
     (function(p_date){
     let startDate = new Date(p_date);
     startDate.setDate(startDate.getDate() + 1);
     return $.datepicker.formatDate('yy.mm.dd', startDate);
     })("2018.09.12")
-    ```
 
 ### 말일 구하기
     ```
