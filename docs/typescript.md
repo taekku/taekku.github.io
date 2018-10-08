@@ -3,6 +3,5 @@ layout: page
 title: TypeScript
 ---
 
-## TypeScript
-
-Hello TypeScript
+## Type
+- Hello TypeScript
