@@ -31,7 +31,6 @@ title: ECMAScript
 
 ## Aboute DATE
 ### 날짜 포맷(yyyymmdd)출력하기(datepicker를 이용하여)
-
     (function(p_date){
     let startDate = new Date(p_date);
     startDate.setDate(startDate.getDate() + 1);
@@ -39,14 +38,10 @@ title: ECMAScript
     })("2018.09.12")
 
 ### 말일 구하기
-    ```
     (function(day){
         let lastday = new Date(day.substring(0,4), day.substring(4,6)-1+1, 0);
         return $.datepicker.formatDate('yymmdd', lastday);
     })(getStdDate())
-    ```
 
 ### 날짜 더하기
-    ```
     ((new Date()).getFullYear() + 1) + ".12.31"
-    ```
