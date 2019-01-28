@@ -2,6 +2,7 @@
 layout: page
 title: ECMAScript
 ---
+# Javascript
 ## Language 기본
 - var
    * function scope
