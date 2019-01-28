@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: mama
 title: Angular Style Guide
 ---
 Angular Syntax, 규칙 및 응용 프로그램 구조에 대한 독창적 인 가이드를 찾고 계십니까? 바로 들어가십시오! 이 스타일 가이드는 선호하는 규칙을 제시하며, 중요한 이유를 설명합니다.

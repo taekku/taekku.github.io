@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: mama
 title: NgModule FAQs
 ---
 NgModules help organize an application into cohesive blocks of functionality.
