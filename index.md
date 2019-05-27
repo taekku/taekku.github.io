@@ -2,7 +2,7 @@
 layout: default
 title: Home
 ---
-##  {{ site.title }}
+###  {{ site.title }}
 
 ### My Project
 - [Boeun](https://taekku.github.io/boeun)

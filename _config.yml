@@ -10,7 +10,7 @@ highlighter:      rouge
 permalink:        pretty
 
 # Setup
-title:            mama
+title:            Taekgu's Homepage
 # 자신의 blog title.
 tagline:          My Home(Mama)
 description:      T.G. Lim
@@ -35,6 +35,9 @@ paginate:         5
 
 # Custom vars
 version:          0.0.1
+
+site:
+  time: 2018 - 2019
 
 github:
   repo:           https://github.com/taekku/taekku.github.io
