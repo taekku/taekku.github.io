@@ -36,8 +36,7 @@ paginate:         5
 # Custom vars
 version:          0.0.1
 
-site:
-  time: 2018 - 2019
+time:   2018 - 2019
 
 github:
   repo:           https://github.com/taekku/taekku.github.io
