@@ -1,4 +1,4 @@
-# taekku.github.io Pages
+# taekku.github.io, www.taekgu.xyz Pages
 
 
 ## Author
