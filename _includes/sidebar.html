@@ -4,7 +4,6 @@
       <a href="{{ site.url }}/{{ site.baseurl }}">
         {{ site.title }}
       </a>
-      <p class="lead">{{ site.description }}</p>
     </div>
 
     <nav class="sidebar-nav">
@@ -30,6 +29,9 @@
 {% endcomment %}
     </nav>
 
-    <p>&copy; {{ site.time | date: '%Y-%M-%D' }}. All rights reserved. 무슨 copyright그냥 쓰세요.</p>
+    <p class="lead">{{ site.description }}
+      {{ site.author.name }}
+    </p>
+    <p>&copy; {{ site.time }}. All rights reserved.</p>
   </div>
 </div>
