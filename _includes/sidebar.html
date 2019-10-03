@@ -1,18 +1,14 @@
 <div class="sidebar">
   <div class="container sidebar-sticky">
     <div class="sidebar-about">
-      {% comment %}
       <a href="{{ site.url }}/{{ site.baseurl }}">
         {{ site.title }}
       </a>
-      {% endcomment %}
       <p class="lead">{{ site.description }}</p>
     </div>
 
     <nav class="sidebar-nav">
-      {% comment %}
       <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}">Home</a>
-      {% endcomment %}
 
       {% comment %}
         The code below dynamically generates a sidebar nav of pages with
@@ -34,6 +30,6 @@
 {% endcomment %}
     </nav>
 
-    <p>&copy; {{ site.time | date: '%Y%M' }}. All rights reserved. 무슨 copyright그냥 쓰세요.</p>
+    <p>&copy; {{ site.time | date: '%Y-%M-%D' }}. All rights reserved. 무슨 copyright그냥 쓰세요.</p>
   </div>
 </div>

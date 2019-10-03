@@ -1,5 +1,5 @@
 ---
-layout: mama
+layout: page
 title: GitHub Pages
 ---
 ## Welcome to GitHub Pages
