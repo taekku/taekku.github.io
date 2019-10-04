@@ -14,7 +14,7 @@ title:            Lim's Homepage
 # 자신의 blog title.
 tagline:          My Home(Mama)
 description:      Lim Taekgu
-# blog home에 표시될 blog에 대한 전반적인 설명.
+# blog home에 표시될 blog에 대한 전반적인 설명. 
 url:              https://taekku.github.io
 # Google Search Console에서 사용하는 sitemap.xml 생성시
 # 이 url key값이 존재하지 않으면 sitemap.xml이
