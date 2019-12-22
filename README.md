@@ -1,6 +1,6 @@
-# taekku.github.io, www.taekgu.xyz Pages
+# taekku.github.io, www.goldgaram.com Pages
 
 
 ## Author
 ### Lim Taekgu 
-- <https://www.taekgu.xyz>
+- <https://www.goldgaram.com>
