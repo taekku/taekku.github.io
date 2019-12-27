@@ -1,4 +1,4 @@
-# taekku.github.io, www.goldgaram.com Pages
+# https://taekku.github.io, https://www.goldgaram.com Pages
 
 
 ## Author
