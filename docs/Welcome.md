@@ -4,5 +4,5 @@ title: Mama Pages
 ---
 
 {{ site.title }}
-## Welcome to GitHub Pages
+## Welcome to Mama Pages
 
