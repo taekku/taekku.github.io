@@ -10,10 +10,10 @@ highlighter:      rouge
 permalink:        pretty
 
 # Setup
-title:            Maro Lim!
+title:            Garam Maro!
 # 자신의 blog title.
-tagline:          My Home(Mama)
-description:      Lim Taekgu
+tagline:          My Home(Maro)
+description:      Lim Maro
 # blog home에 표시될 blog에 대한 전반적인 설명.
 url:              https://taekku.github.io
 # Google Search Console에서 사용하는 sitemap.xml 생성시
@@ -24,8 +24,8 @@ url:              https://taekku.github.io
 # ( https://your_github_id.github.io 형식 )
 baseurl:          /
 
-author:
-  name:           Taekku
+author: 
+  name:           Lim Maro
   uri:            https://taekku.github.io
 
 paginate:         5
