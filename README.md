@@ -2,5 +2,5 @@
 
 
 ## Author
-### Lim Taekgu 
+### Maro Lim
 - <https://www.goldgaram.com>
