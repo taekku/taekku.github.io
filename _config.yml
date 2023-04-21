@@ -15,7 +15,8 @@ title:            Garam Maro!
 tagline:          My Home(Maro)
 description:      Maro Project
 # blog home에 표시될 blog에 대한 전반적인 설명.
-url:              https://taekku.github.io
+#url:              https://taekku.github.io
+url:              https://repo.garamx.com
 # Google Search Console에서 사용하는 sitemap.xml 생성시
 # 이 url key값이 존재하지 않으면 sitemap.xml이
 # 정상적으로 생성되지 않는다.
