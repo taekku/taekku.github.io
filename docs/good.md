@@ -1,5 +1,5 @@
 ---
-layout: mama
+layout: page
 title: Jekyll설정상세히 보기
 ---
 ## Good _config.yml

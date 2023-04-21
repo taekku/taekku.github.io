@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Mama Pages
+title: Welcome to Mama Pages
 ---
 
 {{ site.title }}
