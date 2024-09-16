@@ -6,6 +6,6 @@ title: Home
 
 ### My Project
 - [Mama's GaramX](https://www.garamx.com/dokuwiki/doku.php?id=home)
-- [Garam Project](https://garam.garamx.com/gov)
+- [Garam Project](https://garam.garamx.com/)
 
 ### Great Horse
